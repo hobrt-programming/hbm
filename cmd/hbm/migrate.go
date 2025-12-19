@@ -6,6 +6,7 @@ import (
 
 	"github.com/hobrt-programming/hbm"
 	"github.com/jmoiron/sqlx"
+	_ "github.com/lib/pq"
 )
 
 func openDB() (*sqlx.DB, error) {
